@@ -1,0 +1,73 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+:root { 
+  --bg-color: #FFFFFF;
+  --sf-color: #F5F5F5;
+  --sk-color: #D9D9D9;
+  --sh-transparency: #ffffff8e;
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+  --brand-color: #EF5F4C;
+
+  --ff-sans: 'Poppins', system-ui, sans-serif;
+  --fw-base: 400;
+  --fw-md: 700;
+
+  --fs-sm: .75rem;
+  --fs-base: .875rem;
+  --fs-bold: 2rem;
+
+  --lh-md: 125%;
+  --lh-bold: 170%;
+
+  --py-base: 1rem;
+  --py-md: 2rem;
+  --px-base: 1rem;
+  --px-md: 2rem;
+
+}
+
+html {
+  font-family: var(--ff-sans);
+  font-weight: var(--fw-base);
+  font-size: var(--fs-base);
+  line-height: 1.7;
+  color: var(--text-color-secondary);
+
+  overflow: hidden;
+
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg-color);
+}
+
+@media (width >= 80em) {
+  :root {
+  --fs-sm: .75rem;
+  --fs-base: .875rem;
+  --fs-bold: 2rem;
+
+  --py-base: 1.25rem;
+  --py-md: 1.5rem;
+  --py-lg: 2rem;
+  --px-md: 2rem;
+  }
+}
+
+
+
+
