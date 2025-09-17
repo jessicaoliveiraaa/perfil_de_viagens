@@ -34,6 +34,7 @@
 
   --py-base: 1rem;
   --py-md: 2rem;
+
   --px-base: 1rem;
   --px-md: 2rem;
 
@@ -55,6 +56,26 @@ body {
   background-color: var(--bg-color);
 }
 
+h1 {
+  line-height: 1.2;
+  color: var(--text-color-primary);
+  font-weight: var(--fw-md);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul[role="list"] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: inline-block;
+}
+
 @media (width >= 80em) {
   :root {
   --fs-sm: .75rem;
@@ -63,8 +84,8 @@ body {
 
   --py-base: 1.25rem;
   --py-md: 1.5rem;
-  --py-lg: 2rem;
-  --px-md: 2rem;
+
+  --px-lg: 2rem;
   }
 }
 
