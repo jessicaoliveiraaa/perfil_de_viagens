@@ -1,0 +1,6 @@
+a:hover {
+  text-decoration: none;
+  color: var(--brand-color);
+
+  cursor: pointer;
+}

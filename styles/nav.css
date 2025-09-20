@@ -1,0 +1,38 @@
+nav {
+  justify-content: space-between;
+  cursor: pointer;
+
+
+  line-height: 0;
+
+  & a:hover {
+    color: var(--brand-color);
+  } 
+}
+
+a.social {
+  --bg-img: "";
+  background-image: var(--bg-img);
+  width: 1.5rem;
+  height: 1.5rem;
+  display: block;
+
+  background-image: var(--bg-img);
+  background-repeat: no-repeat;
+  
+  &[aria-label=lupa] {
+    --bg-img: url(../assets/icons/lupa.svg);
+    
+    &:hover {
+     --bg-img: url(../assets/icons/lupa-hover.svg);
+    }
+  }
+}
+
+
+
+
+
+
+
+

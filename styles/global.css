@@ -67,6 +67,10 @@ a {
   color: inherit;
 }
 
+a:hover {
+  color: var(--brand-color);
+}
+
 ul[role="list"] {
   list-style: none;
 }
@@ -82,9 +86,8 @@ img {
   --fs-base: .875rem;
   --fs-bold: 2rem;
 
-  --py-base: 1.25rem;
-  --py-md: 1.5rem;
-
+  --py-base: 1.5rem;
+  --py-md: 2rem;
   --px-lg: 2rem;
   }
 }
