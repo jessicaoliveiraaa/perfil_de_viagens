@@ -37,8 +37,7 @@
 @media (width >= 80em) {
   .container {
     --max-width: 80rem;
-    width: var(--max-width), 100% - var(--px-lg) * 1;
-    margin-inline: auto;
+    width: min(var(--max-width), 100 - var(--px-md) * 2);
   }
 
   .desktop-only {
