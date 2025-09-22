@@ -1,0 +1,46 @@
+header {
+  flex-direction: column;
+  gap: 2rem;
+
+  & #profile {
+    height: 7.5rem;
+    width: 7.5rem;
+
+    margin-bottom: 1rem;
+  }
+
+  & h1 {
+    font: var(--fw-md) var(--fs-bold)/1.25 var(--ff-sans);
+    margin-bottom: .5rem;
+  }
+}
+
+.info {
+  flex-direction: column;
+
+  & li {
+    font: var(fw-md) var(--fs-sm);
+
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+}
+
+@media (width >= 80em) {
+  header .container {
+    display: flex;
+    align-items: center;
+  }
+
+  & header #profile {
+    height: 11rem;
+    width: 11rem;
+    margin-right: 2rem;
+  }
+
+  .info {
+   width: 17.5rem;
+   margin-left: auto;
+  }
+}

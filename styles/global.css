@@ -35,8 +35,8 @@
   --py-base: 1rem;
   --py-md: 2rem;
 
-  --px-base: 1rem;
-  --px-md: 2rem;
+  --px-lg: 2rem;
+  --px-md: 1rem;
 
 }
 
@@ -47,7 +47,7 @@ html {
   line-height: 1.7;
   color: var(--text-color-secondary);
 
-  overflow: hidden;
+  /* overflow: hidden; */
 
   scroll-behavior: smooth;
 }
@@ -87,7 +87,7 @@ img {
   --fs-bold: 2rem;
 
   --py-base: 1.5rem;
-  --py-md: 2rem;
+  /* --py-md: 2rem; */
   --px-lg: 2rem;
   }
 }

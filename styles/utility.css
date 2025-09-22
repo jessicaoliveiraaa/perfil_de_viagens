@@ -22,26 +22,36 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-md) * 1);
   margin-inline: auto;
-  border: solid violet;
+  /* border: solid violet; */
 }
 
 .desktop-only {
   display: none;
 }
 
+.mobile-only {
+  display: block;
+}
+
 .even-columns {
   display: grid;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
+
 
 @media (width >= 80em) {
   .container {
-    --max-width: 80rem;
-    width: min(var(--max-width), 100 - var(--px-md) * 2);
+   --max-width: 80rem;
+   padding-inline: var(--px-lg);
+   width: unset;
   }
 
-  .desktop-only {
-    display: initial;
+   .desktop-only {
+    display: block;
+  } 
+
+  .mobile-only {
+    display: none;
   }
 }
 
