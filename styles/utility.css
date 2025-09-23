@@ -22,7 +22,6 @@
   --max-width: 360px;
   width: min(var(--max-width), 100% - var(--px-md) * 1);
   margin-inline: auto;
-  /* border: solid violet; */
 }
 
 .desktop-only {
@@ -35,7 +34,7 @@
 
 .even-columns {
   display: grid;
-  /* gap: 2rem; */
+  gap: 1rem;
 }
 
 

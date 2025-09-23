@@ -31,6 +31,8 @@ header {
   header .container {
     display: flex;
     align-items: center;
+
+    background-color: var(--text-color-seconadary);
   }
 
   & header #profile {

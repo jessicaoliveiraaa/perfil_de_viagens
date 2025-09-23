@@ -1,0 +1,12 @@
+main {
+  grid-template-columns: repeat(auto-fit, minmax(20.5rem, 1fr));
+  place-items: center;
+  & img {
+    /* height: 20.5rem;
+    width: 20.5rem; */
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+  }
+}

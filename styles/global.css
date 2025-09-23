@@ -87,8 +87,9 @@ img {
   --fs-bold: 2rem;
 
   --py-base: 1.5rem;
-  /* --py-md: 2rem; */
+  --py-md: 2rem;
   --px-lg: 2rem;
+  --px-md: 2rem;
   }
 }
 
