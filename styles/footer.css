@@ -1,0 +1,30 @@
+footer {
+  font: var(--fw-base) var(--fs-base)/1.5 var(--ff-sans);
+  flex-direction: column;
+
+  & > span {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+
+  & .footer-links {
+    gap: 1rem;
+    & span {
+      margin: 0;
+    }
+  }
+}
+
+@media (width >= 80em) {
+  footer {
+    flex-direction: row;
+  }
+
+  & footer span:nth-child(1) {
+    margin-right: auto;
+  }
+}
+
+
+
+

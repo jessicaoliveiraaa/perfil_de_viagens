@@ -16,7 +16,7 @@
   --bg-color: #FFFFFF;
   --sf-color: #F5F5F5;
   --sk-color: #D9D9D9;
-  --sh-transparency: #ffffff8e;
+  --shape-transparency: #ffffff90;
   --text-color-primary: #313131;
   --text-color-secondary: #6C6C6C;
   --brand-color: #EF5F4C;
@@ -46,8 +46,6 @@ html {
   font-size: var(--fs-base);
   line-height: 1.7;
   color: var(--text-color-secondary);
-
-  /* overflow: hidden; */
 
   scroll-behavior: smooth;
 }
